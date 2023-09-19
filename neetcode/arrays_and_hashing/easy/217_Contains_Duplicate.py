@@ -1,5 +1,5 @@
 """
-Runtime
+Runtime O(N)
 483ms
 Beats 51.94% of users with Python3
 

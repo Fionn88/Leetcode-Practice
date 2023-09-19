@@ -1,5 +1,5 @@
 """
-Runtime
+Runtime O(N log N)
 56ms
 Beats 57.16% of users with Python3
 
