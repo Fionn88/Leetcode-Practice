@@ -16,3 +16,16 @@ class Solution:
         for index in range(k):
             result.append(list(new_dict)[index])
         return result
+
+"""
+A more concise approach
+"""
+
+from collections import Counter
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        counter = Counter(nums).most_common(k)
+        answer = []
+        for i in counter:
+            answer.append(i[0])
+        return answer
