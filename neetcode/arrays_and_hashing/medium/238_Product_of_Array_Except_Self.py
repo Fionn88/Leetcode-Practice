@@ -1,10 +1,10 @@
 """
 Runtime
-234ms
-Beats 12.48%of users with Python3
+250ms
+Beats 7.47%of users with Python3
 
 Memory
-40.69MB
+40.38MB
 Beats 5.87%of users with Python3
 """
 import numpy as np
@@ -15,8 +15,8 @@ class Solution:
         flag = False
         for i in nums:
             all_product = all_product * i
-            if i == 0:
-                flag = True
+        if all_product == 0:
+            flag = True
 
         if flag:
             for index in range(len(nums)):
@@ -37,5 +37,3 @@ class Solution:
                 answer.append(all_product // k)
             
         return answer
-    
-            
