@@ -12,13 +12,9 @@ class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         product,answer = [],[]
         all_product = 1
-        flag = False
         for i in nums:
             all_product = all_product * i
         if all_product == 0:
-            flag = True
-
-        if flag:
             for index in range(len(nums)):
                 if index == 0:
                     product.append(nums[1:len(nums)])
@@ -37,3 +33,6 @@ class Solution:
                 answer.append(all_product // k)
             
         return answer
+"""
+The Better Solution Comming Soon
+"""
