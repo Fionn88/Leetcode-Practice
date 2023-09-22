@@ -1,11 +1,11 @@
 """
 Runtime
 97ms
-Beats 71.85%of users with Python3
+Beats 71.85% of users with Python3
 
 Memory
 20.94MB
-Beats 84.53%of users with Python3
+Beats 84.53% of users with Python3
 """
 
 from collections import Counter

@@ -1,11 +1,11 @@
 """
 Runtime O(N log N)
 89ms
-Beats 93.77%of users with Python3
+Beats 93.77% of users with Python3
 
 Memory
 19.59MB
-Beats 83.48%of users with Python3
+Beats 83.48% of users with Python3
 """    
 
 class Solution:

@@ -1,11 +1,11 @@
 """
 Runtime
 104ms
-Beats 49.65%of users with Python3
+Beats 49.65% of users with Python3
 
 Memory
 16.14MB
-Beats 95.42%of users with Python3
+Beats 95.42% of users with Python3
 """
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:

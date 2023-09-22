@@ -1,11 +1,11 @@
 """
 Runtime
 250ms
-Beats 7.47%of users with Python3
+Beats 7.47% of users with Python3
 
 Memory
 40.38MB
-Beats 5.87%of users with Python3
+Beats 5.87% of users with Python3
 """
 import numpy as np
 class Solution:
