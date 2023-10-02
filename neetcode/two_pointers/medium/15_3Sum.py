@@ -17,6 +17,7 @@ class Solution:
         print(nums)
 
         for index,value in enumerate(nums):
+            # 如果當前值等於前一個值，則跳過，以避免重複計算
             if index > 0 and value == nums[index-1]:
                 continue
             r = len(nums) - 1
@@ -30,6 +31,7 @@ class Solution:
                 else:
                     res.append([value,nums[r],nums[l]])
                     l += 1
+                    # 接下來，確保我們不再添加重複的三數之和到結果中
                     while nums[l] == nums[l-1] and l < r :
                         l += 1
         return res
