@@ -7,6 +7,9 @@ Memory
 17.72MB
 Beats 32.23%of users with Python3
 """
+# Time Complexity：O(2^m + n)
+# Space Complexity：O(1)
+# Approach 1：To compare the original string using slicing in Python
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         new_string = re.sub('[^A-Za-z0-9]+', '', s).lower()
@@ -21,6 +24,9 @@ Memory
 17.5MB
 Beats 35.32%of users with Python3
 """
+# Time Complexity：O(n)
+# Space Complexity：O(1)
+# Approach 2：To compare the original string using slicing in Python
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         new_string = ''.join(e for e in s if e.isalnum()).lower()
@@ -36,6 +42,9 @@ Memory
 Beats 32.10%of users with Python3
 """
 
+# Time Complexity：O(n)
+# Space Complexity：O(1)
+# Approach 3 ：Use two pointers, left and right, to move towards the center and compare each value for equality.
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         new_string = ''.join(e for e in s if e.isalnum()).lower()

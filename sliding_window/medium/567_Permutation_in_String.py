@@ -85,3 +85,22 @@ class Solution:
                 matches -= 1
             l += 1
         return matches == 26
+    
+"""
+Runtime
+1087ms
+Beats 22.04%of users with Python3
+
+Memory
+16.13MB
+Beats 98.95%of users with Python3
+"""
+class Solution:
+	def checkInclusion(self, s1: str, s2: str) -> bool:
+		length = 0
+		counters1 = Counter(s1)
+		for r in range(len(s1),len(s2)+1):
+			if counters1 == Counter(s2[length:r]):
+				return True
+			length += 1
+		return False
