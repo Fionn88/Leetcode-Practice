@@ -9,7 +9,7 @@ Beats 83.48% of users with Python3
 """    
 
 # Time Complexity：O(n)
-# Space Complexity：O(1)
+# Space Complexity：O(n)
 # Approach 1 ：Creating a dictionary to group words with the same combinations into the same key and then extracting the values to find a solution.
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:

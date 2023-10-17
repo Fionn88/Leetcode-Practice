@@ -8,7 +8,7 @@ Memory
 Beats 56.27%of users with Python3
 """
 # Time Complexity：O(1)
-# Space Complexity：O(1)
+# Space Complexity：O(N)
 # Approach 1 ：Create two lists, one to record actions and the other to obtain the current minimum value.
 class MinStack:
 

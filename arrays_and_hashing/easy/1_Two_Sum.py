@@ -33,7 +33,7 @@ Beats 50.55% of users with Python3
 """
 
 # Time Complexity：O(n)
-# Space Complexity：O(1)
+# Space Complexity：O(n)
 # Approach 2 ：Using key-value pairs to store values and their index, we can search the dictionary to see if there's a number that matches when subtracted from the target.
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:

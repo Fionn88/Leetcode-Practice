@@ -17,8 +17,7 @@ class Solution:
 
         nums.sort()        
         res = []
-        print(nums)
-
+        
         for index,value in enumerate(nums):
             # If the current value is equal to the previous value, skip it to avoid redundant calculations.
             if index > 0 and value == nums[index-1]:
