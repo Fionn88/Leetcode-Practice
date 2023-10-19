@@ -12,6 +12,14 @@ Beats 72.05%of users with Python3
 # Approach 1：Generate all possible combinations of parentheses using a recursive backtracking approach.
 # Q: Why does this generate all possible combinations?
 # A: 
+'''
+combinations of 3: 
+| (0,0)(1,0)(1,1)(2,1)(2,2)(3,2)(3,3)
+| (0,0)(1,0)(1,1)(2,1)(3,1)(3,2)(3,3)
+| (0,0)(1,0)(2,0)(2,1)(2,2)(3,2)(3,3)
+| (0,0)(1,0)(2,0)(2,1)(3,1)(3,2)(3,3)
+| (0,0)(1,0)(2,0)(3,0)(3,1)(3,2)(3,3)
+'''
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         result = []
