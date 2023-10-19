@@ -26,4 +26,5 @@
 - Stack
 ```
 155. Min Stack
+22. Generate_Parentheses
 ```
