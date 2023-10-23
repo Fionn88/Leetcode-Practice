@@ -7,6 +7,7 @@ Memory
 16.26MB
 Beats 72.06%of users with Python3
 """
+
 # Time Complexity：O(n)
 # Space Complexity：O(1)
 # Approach 1 ：Create a valid parenthesis dictionary and check if the last value is the corresponding parenthesis when adding a right parenthesis.
@@ -29,3 +30,4 @@ class Solution:
             return True
         else:
             return False
+        

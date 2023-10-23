@@ -23,3 +23,4 @@ class Solution:
 
             stack.append(currentDay)
         return result
+    

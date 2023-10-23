@@ -7,6 +7,7 @@ Memory
 29.26MB
 Beats 71.46%of users with Python3
 """
+
 # Time Complexity：O(n)
 # Space Complexity：O(1)
 # Approach 1: Using two pointers to move the pointers and calculate the maximum area.
@@ -24,5 +25,3 @@ class Solution:
             else:
                 r -= 1
         return res
-
-        

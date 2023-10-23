@@ -29,3 +29,4 @@ class Solution:
         for i in counter:
             answer.append(i[0])
         return answer
+    

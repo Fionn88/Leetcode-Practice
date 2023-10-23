@@ -29,3 +29,4 @@ class Solution:
 
         # [["eat","tea","ate"],["tan","nat"],["bat"]]
         return result_list
+    

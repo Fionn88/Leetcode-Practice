@@ -7,6 +7,7 @@ Memory
 27.25MB
 Beats 80.95%of users with Python3
 """
+
 # Time Complexity：O(n)
 # Space Complexity：O(1)
 # Approach 1 ：Using the sliding window approach to find the best selling point for the right maximum value and the left minimum value.

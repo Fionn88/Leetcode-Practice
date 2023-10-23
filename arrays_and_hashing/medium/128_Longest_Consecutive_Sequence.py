@@ -34,6 +34,7 @@ class Solution:
                 count = 1
                 L.append(count)
         return max(L)
+    
 """
 Runtime
 355ms
@@ -58,3 +59,4 @@ class Solution:
                     now += 1
                 answer = max(answer,now)
         return answer
+    

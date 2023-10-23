@@ -7,6 +7,7 @@ Memory
 18.68MB
 Beats 26.24%of users with Python3
 """
+
 class Solution:
     def trap(self, height: List[int]) -> int:
         maxLeft = [0]
@@ -34,6 +35,7 @@ Memory
 18.06MB
 Beats 95.45%of users with Python3
 """
+
 class Solution:
     def trap(self, height: List[int]) -> int:
 
@@ -56,3 +58,4 @@ class Solution:
                 res += maxRight - height[r]
 
         return res
+    

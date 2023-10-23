@@ -1,6 +1,7 @@
 """
 Memory Limit Exceeded
 """
+
 from itertools import permutations
 from collections import Counter
 class Solution:
@@ -25,6 +26,7 @@ class Solution:
 """
 Time Limit Exceeded
 """
+
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         
@@ -52,6 +54,7 @@ Memory
 16.36MB
 Beats 71.14%of users with Python3
 """
+
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         if len(s1) > len(s2):
@@ -95,6 +98,7 @@ Memory
 16.13MB
 Beats 98.95%of users with Python3
 """
+
 class Solution:
 	def checkInclusion(self, s1: str, s2: str) -> bool:
 		length = 0
@@ -104,3 +108,4 @@ class Solution:
 				return True
 			length += 1
 		return False
+     

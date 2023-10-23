@@ -7,6 +7,7 @@ Memory
 16.44MB
 Beats 28.28%of users with Python3
 """
+
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         count = {}
@@ -20,6 +21,7 @@ class Solution:
                 l += 1
             res = max(res, r - l + 1)
         return res
+    
 """
 Runtime
 99ms
@@ -29,6 +31,7 @@ Memory
 16.29MB
 Beats 87.60%of users with Python3
 """    
+
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         count = {}
@@ -46,3 +49,4 @@ class Solution:
             print(res)
             res = max(res, r - l + 1)
         return res
+    

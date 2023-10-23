@@ -1,6 +1,7 @@
 """
 Time Limit Exceeded
 """
+
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         if len(s) < len(t):
@@ -44,6 +45,7 @@ class Solution:
                 r += 1
 
         return ans
+    
 """
 Runtime
 90ms
@@ -53,6 +55,7 @@ Memory
 17.14MB
 Beats 45.53%of users with Python3
 """
+
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         if t == "":
@@ -82,3 +85,4 @@ class Solution:
                 l += 1
         l, r = res
         return s[l : r + 1] if resLen != float("infinity") else ""
+    

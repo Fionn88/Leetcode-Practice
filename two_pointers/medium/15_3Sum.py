@@ -9,6 +9,7 @@ Beats 81.51%of users with Python3
 
 運用 Two_Sum_II_Input_Array_Is_Sorted.py 的方法
 """
+
 # Time Complexity：O(n)
 # Space Complexity：O(1)
 # Approach 1: After sorting the list, using it as the third value in a loop, and then using two pointers to move and find if three numbers equal to 0.
@@ -37,3 +38,4 @@ class Solution:
                     while nums[l] == nums[l-1] and l < r :
                         l += 1
         return res
+    

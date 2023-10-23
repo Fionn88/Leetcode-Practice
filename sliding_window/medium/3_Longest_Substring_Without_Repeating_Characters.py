@@ -71,6 +71,7 @@ Beats 99.09%of users with Python3
 
 The Sample Answer
 """
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         ans = set()
@@ -84,3 +85,4 @@ class Solution:
             maxN = max(len(ans),maxN)
                 
         return maxN
+    

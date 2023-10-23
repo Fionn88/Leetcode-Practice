@@ -7,6 +7,7 @@ Memory
 16.56MB
 Beats 91.40%of users with Python3
 """
+
 # Time Complexity：O(n^2)
 # Space Complexity：O(1)
 # Approach 1 : To determine whether it is an operator and decide whether to perform an operation or append it to the list.
@@ -23,7 +24,6 @@ class Solution:
                 stack.append(int(eval(str(stack.pop()) + c + str(x))))
         return stack[0]
 
-
 """
 Runtime
 70ms
@@ -33,6 +33,7 @@ Memory
 16.66MB
 Beats 65.99%of users with Python3
 """
+
 # Time Complexity：O(n)
 # Space Complexity：O(1)
 # Approach 2 : To determine whether it is an operator and decide whether to perform an operation or append it to the list.

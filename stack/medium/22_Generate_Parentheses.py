@@ -7,9 +7,9 @@ Memory
 16.57MB
 Beats 72.05%of users with Python3
 """
+
 # Time Complexity：O(4^n/n^(1/2))
 # Space Complexity：O(1)
-
 
 # Approach 1：Generate all possible combinations of parentheses using a recursive backtracking approach.
 # Q: Why does this generate all possible combinations?

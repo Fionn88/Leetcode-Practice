@@ -14,7 +14,6 @@ Beats 15.23% of users with Python3
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         return sorted(s) == sorted(t)
-    
 
 # Time Complexity：O(n)
 # Space Complexity：O(1)
@@ -22,3 +21,4 @@ class Solution:
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         return Counter(s) == Counter(t)
+    

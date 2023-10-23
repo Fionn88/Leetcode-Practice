@@ -7,6 +7,7 @@ Memory
 16.14MB
 Beats 95.42% of users with Python3
 """
+
 # Time Complexity：O(n^2)
 # Space Complexity：O(1)
 # Approach 1 ：Check for duplicate numbers in the vertical, horizontal, and 3x3 grid.

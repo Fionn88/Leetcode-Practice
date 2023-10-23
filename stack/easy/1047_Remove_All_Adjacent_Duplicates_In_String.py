@@ -22,3 +22,4 @@ class Solution:
             else:
                 res.pop()
         return ''.join(res)
+    
