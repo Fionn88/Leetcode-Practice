@@ -1,6 +1,16 @@
-# Leetcode-Practice
-
 ## Todo
+
+- stack
+```
+84. Largest Rectangle in Histogram
+```
+
+- sliding window
+```
+239. Sliding Window Maximum.py
+```
+
+## Retry Todo
 
 - Arrays & Hashing
 ```
