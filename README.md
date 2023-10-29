@@ -39,3 +39,9 @@
 22. Generate_Parentheses
 853. Car Fleet
 ```
+
+- Binary Search
+```
+74. Search a 2D Matrix
+875. Koko Eating Bananas
+```
