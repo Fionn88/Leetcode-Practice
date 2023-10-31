@@ -44,4 +44,5 @@
 ```
 74. Search a 2D Matrix
 875. Koko Eating Bananas
+33. Search in Rotated Sorted Array
 ```
