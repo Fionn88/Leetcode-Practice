@@ -8,7 +8,7 @@ Memory
 Beats 56.05%of users with Python3
 """
 
-# Time complexity: O(n∗logn)O(n * log n)O(n∗logn)
+# Time complexity: O(n * log n)
 # Space Complexity：O(1)
 # Approach 1 ：To obtain the minimum value of 'bananas-per-hour' using Binary Search, we determine the 'k' value.
 class Solution:
