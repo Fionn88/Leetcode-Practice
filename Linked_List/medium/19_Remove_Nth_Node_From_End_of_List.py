@@ -1,5 +1,11 @@
 """
+Runtime
+19ms
+Beats 100.00%of users with Python3
 
+Memory
+16.28MB
+Beats 39.81%of users with Python3
 """
 
 # Time complexity: O(n)
