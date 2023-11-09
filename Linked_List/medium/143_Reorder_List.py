@@ -1,5 +1,11 @@
 """
+Runtime
+78ms
+Beats 63.48%of users with Python3
 
+Memory
+25.87MB
+Beats 91.18%of users with Python3
 """
 
 # Definition for singly-linked list.
